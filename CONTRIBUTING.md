@@ -1,7 +1,7 @@
 # Estándar de la casa
 
-Reglas para cualquier módulo que entre a este repositorio. No son sugerencias:
-el workflow `Standards` las verifica en cada push y bloquea lo que no cumpla.
+Reglas para cualquier módulo que entre a este repositorio. Antes de commitear,
+`python3 tools/check_manifests.py` las verifica todas de un tirón.
 
 ## Manifiesto
 
