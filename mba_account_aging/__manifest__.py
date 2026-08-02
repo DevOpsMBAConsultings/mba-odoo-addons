@@ -1,0 +1,21 @@
+{
+    "name": "Aged Balance Analysis",
+    "version": "18.0.1.0.0",
+    "category": "Accounting/Reporting",
+    "summary": "Pivotable ageing of receivables and payables by days past due",
+    "author": "MBA Consultings",
+    "website": "https://github.com/DevOpsMBAConsultings/mba-odoo-addons",
+    "maintainer": "MBA Consultings",
+    "license": "LGPL-3",
+    "depends": ["account"],
+    "data": [
+        "security/ir.model.access.csv",
+        "security/aging_security.xml",
+        "views/res_config_settings_views.xml",
+        "views/aging_analysis_views.xml",
+    ],
+    "images": ["static/description/banner.png"],
+    "installable": True,
+    "application": False,
+    "auto_install": False,
+}
